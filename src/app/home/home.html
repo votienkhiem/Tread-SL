@@ -1,1 +1,35 @@
-<p>home works!</p>
+<!-- Table -->
+ <div class="container">
+  <h2>Bảng tồn kho TD</h2>
+  <!-- NÚT SCAN -->
+  <button class="scan-btn" (click)="onScan()">
+    Scan
+  </button>
+  <button class="scan-btn" (click)="onScan()">
+    Export
+  </button>
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Barcode</th>
+        <th>Part</th>
+        <th>Quantity</th>
+        <th>Tooling</th>
+        <th>Note</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of data; let i = index">
+        <td>{{ i+1}}</td>
+        <td>{{ item.maCode }}</td>
+        <td>{{ item.maTD }}</td>
+        <td>{{ item.soLuong }}</td>
+        <td>{{ item.soXe }}</td>
+        <td>{{ item.note }}</td>
+        <td>{{ item.ngay }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

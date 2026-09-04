@@ -1,0 +1,62 @@
+.container {
+  width: 90%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+thead {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+  transition: 0.2s;
+}
+
+tbody tr:hover {
+  background-color: #f1f9ff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+/* css Scan */
+.scan-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 12px 20px;
+  font-size: 16px;
+  background: linear-gradient(45deg, #28a745, #00c851);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.scan-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* end-css Scan */
