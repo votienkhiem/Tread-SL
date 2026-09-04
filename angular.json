@@ -57,6 +57,10 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "github-pages": {
+              "outputMode": "static",
+              "baseHref": "/Tread-SL/"
             }
           },
           "defaultConfiguration": "production"
