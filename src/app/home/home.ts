@@ -14,7 +14,7 @@ export class Home {
       // 2205000325394,TR710029B-01,B2301,2026-09-03 07:26:12
       maCode: '205000325394',
       maTD: 'TR710029B-01',
-      soLuong: 10,
+      soLuong: 38,
       soXe: 'DT218',
       may: 'B2301',
       note: 'MR',
@@ -26,7 +26,7 @@ export class Home {
       soLuong: 10,
       soXe: 'DT111',
       may: 'B2301',
-      note: 'MR',
+      note: 'TL nặng',
       ngay: '2026-09-03 07:26:12'
     }
   ];
